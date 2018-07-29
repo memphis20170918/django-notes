@@ -14,3 +14,20 @@ pip3 install --download /opt/pip django==2.0.6
 dir2pi /opt/pip
 cp -av /opt/pip /var/www/html/
 ```
+# django with mysql
+
+- Install `mysql`.
+
+```shell
+apt install mysql-server
+apt install libmysqlclient-dev
+```
+
+- Install `django` and `SQL` client.
+
+```shell
+cat requirements.txt 
+django==2.0.6
+mysqlclient==1.3.12
+pip3 install -r requirements.txt
+```
