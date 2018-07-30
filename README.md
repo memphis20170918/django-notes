@@ -1,3 +1,15 @@
+# Setting `virtualenv`
+
+- `WORKON_HOME` defines where the virtual environment should live.
+- `PROJECT_HOME` defines the location of the development projects.
+- 
+
+```shell
+export WORKON_HOME=${HOME}/.virtualenvs
+export PROJECT_HOME=${HOME}/django-projects
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+```
+
 # Local `pip` repository
 
 - Install `python3-pip` and `pip2pi`. Become `root` first for `pip2pi`.
