@@ -1,13 +1,33 @@
-# Setting `virtualenv`
+# Setting up `virtualenv`
 
 - `WORKON_HOME` defines where the virtual environment should live.
 - `PROJECT_HOME` defines the location of the development projects.
-- 
 
 ```shell
 export WORKON_HOME=${HOME}/.virtualenvs
 export PROJECT_HOME=${HOME}/django-projects
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+```
+
+# Creating a virtual environment
+
+- Create a new virtual environment.
+
+```shell
+$ mkvirtualenv -p /usr/bin/python3.5 readit
+Running virtualenv with interpreter /usr/bin/python3.5
+Using base prefix '/usr'
+New python executable in /home/user1/.virtualenvs/readit/bin/python3.5
+Also creating executable in /home/user1/.virtualenvs/readit/bin/python
+```
+
+- To stop working on the virtual environment, use the `deactivate` command.
+- To start working on the virtual environment, use the `workon <project>` command.
+
+```shell
+(readit) user1@server:~/django-projects$ deactivate 
+user1@server:~/django-projects$ workon readit
+(readit) user1@server:~/django-projects$ 
 ```
 
 # Local `pip` repository
