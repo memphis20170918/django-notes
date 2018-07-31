@@ -33,8 +33,7 @@ user1@server:~/django-projects$ workon readit
 
 - Follow this link.
 
-[https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database][https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database]
-
+[https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database](https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database)
 # Install `django`
 
 - Install `django` with `pip` and confirm the installation with `pip freeze`.
