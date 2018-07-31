@@ -29,6 +29,11 @@ Also creating executable in /home/user1/.virtualenvs/readit/bin/python
 user1@server:~/django-projects$ workon readit
 (readit) user1@server:~/django-projects$ 
 ```
+# Install `MySQL`
+
+- Follow this link.
+
+[https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database][https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database]
 
 # Install `django`
 
