@@ -97,3 +97,17 @@ pip3 install -r requirements.txt
 $ cd django-projects/
 $ django-admin startproject readit
 ```
+
+# Starting the development environment
+
+```shell
+(readit) user@10-150-139-250:~/django-projects/readit$ python manage.py runserver 0.0.0.0:8000    
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+July 31, 2018 - 02:14:12
+Django version 2.0.7, using settings 'readit.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+```
