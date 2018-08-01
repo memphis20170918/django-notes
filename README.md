@@ -100,6 +100,8 @@ $ django-admin startproject readit
 
 # Starting the development environment
 
+- Since `django` was installed using `pip` without `root` privileges, we can't start the development server using `sudo` nor on a port number that's lower than 1024. For production web server, run using `uWSGI` and `nginx`.
+
 ```shell
 (readit) user@10-150-139-250:~/django-projects/readit$ python manage.py runserver 0.0.0.0:8000    
 Performing system checks...
