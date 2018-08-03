@@ -29,6 +29,14 @@ Also creating executable in /home/user1/.virtualenvs/readit/bin/python
 user1@server:~/django-projects$ workon readit
 (readit) user1@server:~/django-projects$ 
 ```
+
+- To delete a virtual environment, use `rmvirtualenv`.
+
+```shell
+$ rmvirtualenv readit
+Removing readit...
+```
+
 # Install `MySQL`
 
 - Follow this link.
